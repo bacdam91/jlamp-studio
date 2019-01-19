@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JLAMP Studio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -12,43 +13,46 @@
         
         <section class="grid-container" id="home">
             
-            <div class="bg-main-theme-color grid-container logo-container">
+            <div class="bg-main-theme-color grid-container logo-container section-header">
                 <img src="assets/img/svg/logo-white.svg" alt="jlamp studio logo">
             </div>
 
-            <div class="grid-container company-name-container">
+            <div class="grid-container company-name-container section-content">
                 <h1>JLAMP</h1>
                 <h1>STUDIO</h1>
                 <h3>Bac Trach Dam</h3>
                 <h4>Swinburne University of Technology</h4>
                 <h5>Master of Information Technology</h5>
+                <ul class="grid-container bg-main-theme-color">
+                    <li>Internet Technology Development</li>
+                    <li>From mobile applications to websites</li>
+                </ul>
             </div>
 
-            <ul class="grid-container bg-main-theme-color">
-                <li>Internet Technology Development</li>
-                <li>From mobile applications to websites</li>
-            </ul>
-            
             <div class="bg-main-theme-color grid-container section-footer">
-                <img src="assets/img/svg/dash.svg" alt="dash icon">
+                <ul class="grid-container">
+                    <li><i class="fab fa-facebook"></i></li>
+                </ul>
             </div>
 
         </section>
 
         <section class="grid-container" id="content">
-            <div class="grid-container bg-main-theme-color">
+            <div class="grid-container bg-main-theme-color section-header">
                 <h3>Content<span></span></h3>
             </div>
 
-            <ul class="grid-container">
-                <li><h3>About Me</h3></li>
-                <li><h3>My Portfolio</h3></li>
-                <li><h3>My Tutorials</h3></li>
-                <li><h3>Contact me</h3></li>
-                <li>
-                    <img src="assets/img/svg/pages.svg" alt="pages icon">
-                </li>
-            </ul>
+            <div class="grid-container section-content">
+                <ul class="grid-container">
+                    <li><h3>About Me</h3></li>
+                    <li><h3>My Portfolio</h3></li>
+                    <li><h3>My Tutorials</h3></li>
+                    <li><h3>Contact me</h3></li>
+                    <li>
+                        <img src="assets/img/svg/pages.svg" alt="pages icon">
+                    </li>
+                </ul>
+            </div>
 
             <div class="bg-main-theme-color grid-container section-footer">
                 <img src="assets/img/svg/dash.svg" alt="dash icon">
@@ -59,13 +63,12 @@
 
             <img src="assets/img/svg/triangle.svg" alt="background triangle">
             
-            <div class="grid-container bg-main-theme-color">
-
+            <div class="grid-container section-header">
+                <b></b>
+                <img src="assets/img/jpg/my face.jpg" alt="picture of site owner">    
             </div>
 
-            <img src="assets/img/jpg/my face.jpg" alt="picture of site owner    ">
-
-            <div class="grid-container bg-main-theme-color">
+            <div class="grid-container bg-main-theme-color section-content">
                 <h3>About Me<span></span></h3>
                 <p class="bg-color">
                     Ham followed now ecstatic use speaking exercise may repeated. Himself he evident oh greatly my on inhabit general concern. It earnest amongst he showing females so improve in picture. Mrs can hundred its greater account. Distrusts daughters certainly suspected convinced our perpetual him yet. Words did noise taken right state are since. 
@@ -85,30 +88,63 @@
         </section>
         
         <section class="grid-container" id="portfolio">
-            <h3>My Portfolio</h3>
-            <ul class="grid-container">
-                <li class="grid-container">
-                    <h5>Ding Dong Photgraphy Website</h5>
-                    <h6>Ding Dong Photography</h6>
-                    <span></span>
-                </li>
-                <li class="grid-container">
-                    <h5>Calendar Interface</h5>
-                    <h6>BTD Technology</h6>
-                    <span></span>
-                </li>
-                <li class="grid-container">
-                    <h5>Floating Draggable Toolbar</h5>
-                    <h6>BTD Technology</h6>
-                    <span></span>
-                </li>
-            </ul>
+            <div class="grid-container section-header">
+                <img src="" alt="decoration">
+                <h3>My Portfolio</h3>
+            </div>
+            <div class="grid-container section-content">
+                <ul class="grid-container">
+                    <li class="grid-container">
+                        <h5>Ding Dong Photgraphy Website</h5>
+                        <h6>Ding Dong Photography</h6>
+                        <span></span>
+                    </li>
+                    <li class="grid-container">
+                        <h5>Calendar Interface</h5>
+                        <h6>BTD Technology</h6>
+                        <span></span>
+                    </li>
+                    <li class="grid-container">
+                        <h5>Floating Draggable Toolbar</h5>
+                        <h6>BTD Technology</h6>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
             <div class="bg-main-theme-color grid-container section-footer">
                 <img src="assets/img/svg/dash.svg" alt="dash icon">
             </div>
         </section>
         
         <section class="grid-container" id="tutorials">
+            <div class="grid-container section-header">
+                <h3>My Tutorials</h3>
+            </div>
+            
+            <div class="grid-container section-content">
+                <ul class="grid-container">
+                    <li class="grid-container">
+                        <h5>Calendar Interface</h5>
+                        <h6>BTD Technology</h6>
+                        <span></span>
+                    </li>
+                    <li class="grid-container">
+                        <h5>Floating Draggable Toolbar</h5>
+                        <h6>BTD Technology</h6>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-main-theme-color grid-container section-footer">
+                <img src="assets/img/svg/dash.svg" alt="dash icon">
+            </div>
+        </section>
+        
+        <section class="grid-container" id="contact">
+            <div class="grid-container section-header">
+                <h3>Contact Me</h3>
+            </div>
+            
         </section>
 
     </main>
